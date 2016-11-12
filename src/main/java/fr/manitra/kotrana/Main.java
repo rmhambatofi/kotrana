@@ -13,5 +13,7 @@ public class Main {
         scoreBoard.add(new GameEntry("Jill", 740));
 
         scoreBoard.printScore();
+
+        System.out.println(Math.sqrt(100));
     }
 }
