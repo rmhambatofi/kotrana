@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  */
 public class Fibobacci {
     public static void main(String[] args) throws IOException {
-        File file = new File(args[0]);
+        /*File file = new File(args[0]);
         BufferedReader buffer = new BufferedReader(new FileReader(file));
         String line;
         while ((line = buffer.readLine()) != null) {
@@ -21,6 +21,11 @@ public class Fibobacci {
             Matcher m = p.matcher(tokens[0]);
             System.out.println(m.replaceAll(""));
             long[] l = fibonacci(6);
+        }*/
+
+        int[] arr = new int[100000000];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i;
         }
     }
 
